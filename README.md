@@ -16,26 +16,6 @@
 6. 각 벡터화된 이미지 간의 코사인 유사도를 계산합니다.
 7. 후보 이미지 중 가장 유사한 이미지를 선택합니다.
 
-### file 구조
-├── README.md
-├── dbimages
-│   ├── 1.jpg
-│   ├── 2.jpg
-├── image_dict.json
-├── models
-│   ├── image_dict.json
-│   ├── resnet50_model.pth
-│   └── vgg16_model.pth
-├── sample_input
-│   ├── input_image.jpg
-├── src
-│   ├── ImageRetrieval.py
-│   ├── myerror.py
-│   └── myexception.py
-├── test_retrieval.py
-└── tool
-    ├── model_save.py
-    └── vectorize_db_image.py
 
 ### 결과 
 <img width="907" alt="image" src="https://github.com/chanyoungP/image-retrieval/assets/67907678/6baa00b5-10c6-4064-97e5-37dc741bd6ee">
